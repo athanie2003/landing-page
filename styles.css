@@ -9,9 +9,14 @@ body{
     color: #F9FAF8;
 }
 
+p{
+    margin: 0;
+}
+
 .main-text{
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 header{
@@ -22,8 +27,12 @@ header{
 }
 
 .top-section{
+    margin-top: 16px;
     margin-left: 200px;
     margin-right: 200px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
 }
 
 ul{
@@ -42,8 +51,26 @@ a{
 .head-text{
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .top-btn{
     background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 4px 24px;
+    margin: 8px auto;
+}
+
+.rect{
+    width: 500px;
+    background-color: gray;
+}
+
+.non-img{
+    width: 500px;
 }
