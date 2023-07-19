@@ -42,7 +42,7 @@ ul{
     display: flex;
     list-style-type: none;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
     padding: 0;
 }
 
@@ -137,6 +137,8 @@ a{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .reference{
@@ -147,6 +149,41 @@ a{
     justify-content: flex-end;
     margin-left: 300px;
     margin-right: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom-section{
+    margin: 50px 200px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheading{
     font-size: 24px;
     font-weight: bold;
+}
+
+.bottom-btn{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
