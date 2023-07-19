@@ -2,6 +2,8 @@ body{
     font-family: sans-serif;
     margin: 0;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-background{
@@ -118,4 +120,33 @@ a{
     text-align: center;
     color: #1F2937;
     margin-top: 10px;
+}
+
+.bottom-mid{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+}
+
+.quote{
+    padding-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.reference{
+    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24px;
+    font-weight: bold;
 }
